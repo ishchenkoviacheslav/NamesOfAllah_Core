@@ -1,0 +1,9 @@
+C:\Users\user\Documents\Visual Studio 2017\Projects\NamesOfAllah_Core\NamesOfAllah_Core\bin\Debug\netcoreapp1.1\NamesOfAllah_Core.deps.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\NamesOfAllah_Core\NamesOfAllah_Core\bin\Debug\netcoreapp1.1\NamesOfAllah_Core.runtimeconfig.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\NamesOfAllah_Core\NamesOfAllah_Core\bin\Debug\netcoreapp1.1\NamesOfAllah_Core.runtimeconfig.dev.json
+C:\Users\user\Documents\Visual Studio 2017\Projects\NamesOfAllah_Core\NamesOfAllah_Core\bin\Debug\netcoreapp1.1\NamesOfAllah_Core.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\NamesOfAllah_Core\NamesOfAllah_Core\bin\Debug\netcoreapp1.1\NamesOfAllah_Core.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\NamesOfAllah_Core\NamesOfAllah_Core\obj\Debug\netcoreapp1.1\NamesOfAllah_Core.AssemblyInfo.cs
+C:\Users\user\Documents\Visual Studio 2017\Projects\NamesOfAllah_Core\NamesOfAllah_Core\obj\Debug\netcoreapp1.1\NamesOfAllah_Core.dll
+C:\Users\user\Documents\Visual Studio 2017\Projects\NamesOfAllah_Core\NamesOfAllah_Core\obj\Debug\netcoreapp1.1\NamesOfAllah_Core.pdb
+C:\Users\user\Documents\Visual Studio 2017\Projects\NamesOfAllah_Core\NamesOfAllah_Core\obj\Debug\netcoreapp1.1\NamesOfAllah_Core.csprojResolveAssemblyReference.cache
