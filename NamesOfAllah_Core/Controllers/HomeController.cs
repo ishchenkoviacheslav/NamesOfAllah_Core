@@ -15,16 +15,23 @@ namespace NamesOfAllah_Core.Controllers
 
         public IActionResult About()
         {
-            //чтото новое
-            ViewData["Message"] = "Your application description page.";
-            ViewData["Names"] = (new namesOfAllah.Models.Names()).ListOfNames.ToList();
+           // ViewData["Names"] = (new namesOfAllah.Models.Names()).ListOfNames.ToList();
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Contact(string name)
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["name"] = name;
+            namesOfAllah.Models.Names Names = new namesOfAllah.Models.Names();
+            KeyValuePair<string, namesOfAllah.Models.Name> currName = Names.ListOfNames.First((kvp) =>
+            {
+                if (kvp.Key.Contains(name))
+                    return true;
+                else
+                    return false;
+            });
+            ViewData["description"] = currName.Value.Description;
 
             return View();
         }
