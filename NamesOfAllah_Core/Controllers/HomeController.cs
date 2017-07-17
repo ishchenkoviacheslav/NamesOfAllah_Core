@@ -13,14 +13,7 @@ namespace NamesOfAllah_Core.Controllers
             return View();
         }
 
-        public IActionResult About()
-        {
-           // ViewData["Names"] = (new namesOfAllah.Models.Names()).ListOfNames.ToList();
-
-            return View();
-        }
-
-        public IActionResult Contact(string name)
+        public IActionResult NameDescription(string name)
         {
             ViewData["name"] = name;
             namesOfAllah.Models.Names Names = new namesOfAllah.Models.Names();
@@ -33,11 +26,6 @@ namespace NamesOfAllah_Core.Controllers
             });
             ViewData["description"] = currName.Value.Description;
 
-            return View();
-        }
-
-        public IActionResult Error()
-        {
             return View();
         }
     }

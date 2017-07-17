@@ -1,14 +1,5 @@
-﻿@*@{
-        ViewData["Title"] = "About";
-    }
-    <h2>@ViewData["Title"].</h2>
-    <h3>@ViewData["Message"]</h3>
-
-    <p>Use this area to provide additional information.</p>*@
-
-@{
+﻿@{
     Layout = null;
-    //List<KeyValuePair<string, namesOfAllah.Models.Name>> NamesOfAllah = (List<KeyValuePair<string, namesOfAllah.Models.Name>>)ViewData["Names"];
 }
 <!DOCTYPE html>
 <html>
@@ -16,20 +7,6 @@
     <title>Имена Аллаха</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - NamesOfAllah_Core</title>
-
-    <environment names="Development">
-        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-        <link rel="stylesheet" href="~/css/site.css" />
-    </environment>
-    <environment names="Staging,Production">
-        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
-              asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-              asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-        <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-    </environment>
-    <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <style>
         html, body {
             height: 100%;
@@ -274,7 +251,7 @@
 
 				// table
 					var element0 = document.createElement('button');
-                    element0.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[0+1];}, false );
+                    element0.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[0+1];}, false );
 					element0.className = 'element';
 					element0.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element0.innerHTML = table[0+1];
@@ -294,7 +271,7 @@
 					targets.table.push( object );
         //5
                     var element5 = document.createElement('button');
-                    element5.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[5+1];}, false );
+                    element5.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[5+1];}, false );
 					element5.className = 'element';
 					element5.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element5.innerHTML = table[5+1];
@@ -314,7 +291,7 @@
 					targets.table.push( object );
         //10
                     var element10 = document.createElement('button');
-                    element10.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[10+1];}, false );
+                    element10.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[10+1];}, false );
 					element10.className = 'element';
 					element10.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element10.innerHTML = table[10+1];
@@ -334,7 +311,7 @@
 					targets.table.push( object );
         //15
                  var element15 = document.createElement('button');
-                    element15.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[15+1];}, false );
+                    element15.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[15+1];}, false );
 					element15.className = 'element';
 					element15.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element15.innerHTML = table[15+1];
@@ -354,7 +331,7 @@
 					targets.table.push( object );
 		//20
          var element20 = document.createElement('button');
-                    element20.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[20+1];}, false );
+                    element20.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[20+1];}, false );
 					element20.className = 'element';
 					element20.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element20.innerHTML = table[20+1];
@@ -374,7 +351,7 @@
 					targets.table.push( object );
         //25
          var element25 = document.createElement('button');
-                    element25.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[25+1];}, false );
+                    element25.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[25+1];}, false );
 					element25.className = 'element';
 					element25.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element25.innerHTML = table[25+1];
@@ -394,7 +371,7 @@
 					targets.table.push( object );
         //30
          var element30 = document.createElement('button');
-                    element30.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[30+1];}, false );
+                    element30.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[30+1];}, false );
 					element30.className = 'element';
 					element30.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element30.innerHTML = table[30+1];
@@ -414,7 +391,7 @@
 					targets.table.push( object );
         //35
          var element35 = document.createElement('button');
-                    element35.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[35+1];}, false );
+                    element35.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[35+1];}, false );
 					element35.className = 'element';
 					element35.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element35.innerHTML = table[35+1];
@@ -434,7 +411,7 @@
 					targets.table.push( object );
         //40
          var element40 = document.createElement('button');
-                    element40.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[40+1];}, false );
+                    element40.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[40+1];}, false );
 					element40.className = 'element';
 					element40.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element40.innerHTML = table[40+1];
@@ -454,7 +431,7 @@
 					targets.table.push( object );
         //45
          var element45 = document.createElement('button');
-                    element45.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[45+1];}, false );
+                    element45.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[45+1];}, false );
 					element45.className = 'element';
 					element45.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element45.innerHTML = table[45+1];
@@ -474,7 +451,7 @@
 					targets.table.push( object );
         //50
          var element50 = document.createElement('button');
-                    element50.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[50+1];}, false );
+                    element50.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[50+1];}, false );
 					element50.className = 'element';
 					element50.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element50.innerHTML = table[50+1];
@@ -494,7 +471,7 @@
 					targets.table.push( object );
         //55
          var element55 = document.createElement('button');
-                    element55.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[55+1];}, false );
+                    element55.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[55+1];}, false );
 					element55.className = 'element';
 					element55.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element55.innerHTML = table[55+1];
@@ -514,7 +491,7 @@
 					targets.table.push( object );
         //60
          var element60 = document.createElement('button');
-                    element60.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[60+1];}, false );
+                    element60.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[60+1];}, false );
 					element60.className = 'element';
 					element60.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element60.innerHTML = table[60+1];
@@ -534,7 +511,7 @@
 					targets.table.push( object );
         //65
          var element65 = document.createElement('button');
-                    element65.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[65+1];}, false );
+                    element65.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[65+1];}, false );
 					element65.className = 'element';
 					element65.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element65.innerHTML = table[65+1];
@@ -554,7 +531,7 @@
 					targets.table.push( object );
         //70
          var element70 = document.createElement('button');
-                    element70.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[70+1];}, false );
+                    element70.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[70+1];}, false );
 					element70.className = 'element';
 					element70.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element70.innerHTML = table[70+1];
@@ -574,7 +551,7 @@
 					targets.table.push( object );
         //75
          var element75 = document.createElement('button');
-                    element75.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[75+1];}, false );
+                    element75.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[75+1];}, false );
 					element75.className = 'element';
 					element75.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element75.innerHTML = table[75+1];
@@ -594,7 +571,7 @@
 					targets.table.push( object );
         //80
          var element80 = document.createElement('button');
-                    element80.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[80+1];}, false );
+                    element80.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[80+1];}, false );
 					element80.className = 'element';
 					element80.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element80.innerHTML = table[80+1];
@@ -614,7 +591,7 @@
 					targets.table.push( object );
         //85
          var element85 = document.createElement('button');
-                    element85.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[85+1];}, false );
+                    element85.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[85+1];}, false );
 					element85.className = 'element';
 					element85.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element85.innerHTML = table[85+1];
@@ -634,7 +611,7 @@
 					targets.table.push( object );
         //90
          var element90 = document.createElement('button');
-                    element90.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[90+1];}, false );
+                    element90.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[90+1];}, false );
 					element90.className = 'element';
 					element90.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element90.innerHTML = table[90+1];
@@ -654,7 +631,7 @@
 					targets.table.push( object );
         //95
          var element95 = document.createElement('button');
-                    element95.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[95+1];}, false );
+                    element95.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[95+1];}, false );
 					element95.className = 'element';
 					element95.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element95.innerHTML = table[95+1];
@@ -674,7 +651,7 @@
 					targets.table.push( object );
         //100
          var element100 = document.createElement('button');
-                    element100.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[100+1];}, false );
+                    element100.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[100+1];}, false );
 					element100.className = 'element';
 					element100.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element100.innerHTML = table[100+1];
@@ -694,7 +671,7 @@
 					targets.table.push( object );
         //105
          var element105 = document.createElement('button');
-                    element105.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[105+1];}, false );
+                    element105.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[105+1];}, false );
 					element105.className = 'element';
 					element105.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element105.innerHTML = table[105+1];
@@ -714,7 +691,7 @@
 					targets.table.push( object );
         //110
          var element110 = document.createElement('button');
-                    element110.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[110+1];}, false );
+                    element110.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[110+1];}, false );
 					element110.className = 'element';
 					element110.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element110.innerHTML = table[110+1];
@@ -734,7 +711,7 @@
 					targets.table.push( object );
         //115
          var element115 = document.createElement('button');
-                    element115.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[115+1];}, false );
+                    element115.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[115+1];}, false );
 					element115.className = 'element';
 					element115.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element115.innerHTML = table[115+1];
@@ -754,7 +731,7 @@
 					targets.table.push( object );
         //120
          var element120 = document.createElement('button');
-                    element120.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[120+1];}, false );
+                    element120.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[120+1];}, false );
 					element120.className = 'element';
 					element120.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element120.innerHTML = table[120+1];
@@ -774,7 +751,7 @@
 					targets.table.push( object );
         //125
          var element125 = document.createElement('button');
-                    element125.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[125+1];}, false );
+                    element125.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[125+1];}, false );
 					element125.className = 'element';
 					element125.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element125.innerHTML = table[125+1];
@@ -794,7 +771,7 @@
 					targets.table.push( object );
         //130
          var element130 = document.createElement('button');
-                    element130.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[130+1];}, false );
+                    element130.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[130+1];}, false );
 					element130.className = 'element';
 					element130.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element130.innerHTML = table[130+1];
@@ -814,7 +791,7 @@
 					targets.table.push( object );
         //135
          var element135 = document.createElement('button');
-                    element135.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[135+1];}, false );
+                    element135.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[135+1];}, false );
 					element135.className = 'element';
 					element135.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element135.innerHTML = table[135+1];
@@ -834,7 +811,7 @@
 					targets.table.push( object );
         //140
          var element140 = document.createElement('button');
-                    element140.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[140+1];}, false );
+                    element140.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[140+1];}, false );
 					element140.className = 'element';
 					element140.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element140.innerHTML = table[140+1];
@@ -854,7 +831,7 @@
 					targets.table.push( object );
         //145
          var element145 = document.createElement('button');
-                    element145.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[145+1];}, false );
+                    element145.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[145+1];}, false );
 					element145.className = 'element';
 					element145.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element145.innerHTML = table[145+1];
@@ -874,7 +851,7 @@
 					targets.table.push( object );
         //150
          var element150 = document.createElement('button');
-                    element150.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[150+1];}, false );
+                    element150.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[150+1];}, false );
 					element150.className = 'element';
 					element150.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element150.innerHTML = table[150+1];
@@ -894,7 +871,7 @@
 					targets.table.push( object );
         //155
          var element155 = document.createElement('button');
-                    element155.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[155+1];}, false );
+                    element155.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[155+1];}, false );
 					element155.className = 'element';
 					element155.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element155.innerHTML = table[155+1];
@@ -914,7 +891,7 @@
 					targets.table.push( object );
         //160
          var element160 = document.createElement('button');
-                    element160.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[160+1];}, false );
+                    element160.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[160+1];}, false );
 					element160.className = 'element';
 					element160.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element160.innerHTML = table[160+1];
@@ -934,7 +911,7 @@
 					targets.table.push( object );
         //165
          var element165 = document.createElement('button');
-                    element165.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[165+1];}, false );
+                    element165.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[165+1];}, false );
 					element165.className = 'element';
 					element165.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element165.innerHTML = table[165+1];
@@ -954,7 +931,7 @@
 					targets.table.push( object );
         //170
          var element170 = document.createElement('button');
-                    element170.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[170+1];}, false );
+                    element170.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[170+1];}, false );
 					element170.className = 'element';
 					element170.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element170.innerHTML = table[170+1];
@@ -974,7 +951,7 @@
 					targets.table.push( object );
         //175
          var element175 = document.createElement('button');
-                    element175.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[175+1];}, false );
+                    element175.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[175+1];}, false );
 					element175.className = 'element';
 					element175.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element175.innerHTML = table[175+1];
@@ -994,7 +971,7 @@
 					targets.table.push( object );
         //180
          var element180 = document.createElement('button');
-                    element180.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[180+1];}, false );
+                    element180.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[180+1];}, false );
 					element180.className = 'element';
 					element180.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element180.innerHTML = table[180+1];
@@ -1014,7 +991,7 @@
 					targets.table.push( object );
         //185
          var element185 = document.createElement('button');
-                    element185.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[185+1];}, false );
+                    element185.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[185+1];}, false );
 					element185.className = 'element';
 					element185.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element185.innerHTML = table[185+1];
@@ -1034,7 +1011,7 @@
 					targets.table.push( object );
         //190
          var element190 = document.createElement('button');
-                    element190.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[190+1];}, false );
+                    element190.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[190+1];}, false );
 					element190.className = 'element';
 					element190.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element190.innerHTML = table[190+1];
@@ -1054,7 +1031,7 @@
 					targets.table.push( object );
         //195
          var element195 = document.createElement('button');
-                    element195.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[195+1];}, false );
+                    element195.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[195+1];}, false );
 					element195.className = 'element';
 					element195.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element195.innerHTML = table[195+1];
@@ -1074,7 +1051,7 @@
 					targets.table.push( object );
         //200
          var element200 = document.createElement('button');
-                    element200.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[200+1];}, false );
+                    element200.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[200+1];}, false );
 					element200.className = 'element';
 					element200.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element200.innerHTML = table[200+1];
@@ -1094,7 +1071,7 @@
 					targets.table.push( object );
         //205
          var element205 = document.createElement('button');
-                    element205.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[205+1];}, false );
+                    element205.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[205+1];}, false );
 					element205.className = 'element';
 					element205.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element205.innerHTML = table[205+1];
@@ -1114,7 +1091,7 @@
 					targets.table.push( object );
         //210
          var element210 = document.createElement('button');
-                    element210.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[210+1];}, false );
+                    element210.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[210+1];}, false );
 					element210.className = 'element';
 					element210.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element210.innerHTML = table[210+1];
@@ -1134,7 +1111,7 @@
 					targets.table.push( object );
         //215
          var element215 = document.createElement('button');
-                    element215.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[215+1];}, false );
+                    element215.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[215+1];}, false );
 					element215.className = 'element';
 					element215.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element215.innerHTML = table[215+1];
@@ -1154,7 +1131,7 @@
 					targets.table.push( object );
         //220
          var element220 = document.createElement('button');
-                    element220.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[220+1];}, false );
+                    element220.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[220+1];}, false );
 					element220.className = 'element';
 					element220.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element220.innerHTML = table[220+1];
@@ -1174,7 +1151,7 @@
 					targets.table.push( object );
         //225
          var element225 = document.createElement('button');
-                    element225.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[225+1];}, false );
+                    element225.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[225+1];}, false );
 					element225.className = 'element';
 					element225.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element225.innerHTML = table[225+1];
@@ -1194,7 +1171,7 @@
 					targets.table.push( object );
         //230
          var element230 = document.createElement('button');
-                    element230.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[230+1];}, false );
+                    element230.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[230+1];}, false );
 					element230.className = 'element';
 					element230.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element230.innerHTML = table[230+1];
@@ -1214,7 +1191,7 @@
 					targets.table.push( object );
         //235
          var element235 = document.createElement('button');
-                    element235.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[235+1];}, false );
+                    element235.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[235+1];}, false );
 					element235.className = 'element';
 					element235.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element235.innerHTML = table[235+1];
@@ -1234,7 +1211,7 @@
 					targets.table.push( object );
         //240
          var element240 = document.createElement('button');
-                    element240.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[240+1];}, false );
+                    element240.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[240+1];}, false );
 					element240.className = 'element';
 					element240.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element240.innerHTML = table[240+1];
@@ -1254,7 +1231,7 @@
 					targets.table.push( object );
         //245
          var element245 = document.createElement('button');
-                    element245.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[245+1];}, false );
+                    element245.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[245+1];}, false );
 					element245.className = 'element';
 					element245.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element245.innerHTML = table[245+1];
@@ -1274,7 +1251,7 @@
 					targets.table.push( object );
         //250
          var element250 = document.createElement('button');
-                    element250.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[250+1];}, false );
+                    element250.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[250+1];}, false );
 					element250.className = 'element';
 					element250.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element250.innerHTML = table[250+1];
@@ -1294,7 +1271,7 @@
 					targets.table.push( object );
         //255
          var element255 = document.createElement('button');
-                    element255.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[255+1];}, false );
+                    element255.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[255+1];}, false );
 					element255.className = 'element';
 					element255.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element255.innerHTML = table[255+1];
@@ -1314,7 +1291,7 @@
 					targets.table.push( object );
         //260
          var element260 = document.createElement('button');
-                    element260.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[260+1];}, false );
+                    element260.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[260+1];}, false );
 					element260.className = 'element';
 					element260.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element260.innerHTML = table[260+1];
@@ -1334,7 +1311,7 @@
 					targets.table.push( object );
         //265
          var element265 = document.createElement('button');
-                    element265.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[265+1];}, false );
+                    element265.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[265+1];}, false );
 					element265.className = 'element';
 					element265.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element265.innerHTML = table[265+1];
@@ -1354,7 +1331,7 @@
 					targets.table.push( object );
         //270
          var element270 = document.createElement('button');
-                    element270.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[270+1];}, false );
+                    element270.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[270+1];}, false );
 					element270.className = 'element';
 					element270.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element270.innerHTML = table[270+1];
@@ -1374,7 +1351,7 @@
 					targets.table.push( object );
         //275
          var element275 = document.createElement('button');
-                    element275.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[275+1];}, false );
+                    element275.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[275+1];}, false );
 					element275.className = 'element';
 					element275.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element275.innerHTML = table[275+1];
@@ -1394,7 +1371,7 @@
 					targets.table.push( object );
         //280
          var element280 = document.createElement('button');
-                    element280.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[280+1];}, false );
+                    element280.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[280+1];}, false );
 					element280.className = 'element';
 					element280.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element280.innerHTML = table[280+1];
@@ -1414,7 +1391,7 @@
 					targets.table.push( object );
         //285
          var element285 = document.createElement('button');
-                    element285.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[285+1];}, false );
+                    element285.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[285+1];}, false );
 					element285.className = 'element';
 					element285.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element285.innerHTML = table[285+1];
@@ -1434,7 +1411,7 @@
 					targets.table.push( object );
         //290
          var element290 = document.createElement('button');
-                    element290.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[290+1];}, false );
+                    element290.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[290+1];}, false );
 					element290.className = 'element';
 					element290.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element290.innerHTML = table[290+1];
@@ -1454,7 +1431,7 @@
 					targets.table.push( object );
         //295
          var element295 = document.createElement('button');
-                    element295.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[295+1];}, false );
+                    element295.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[295+1];}, false );
 					element295.className = 'element';
 					element295.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element295.innerHTML = table[295+1];
@@ -1474,7 +1451,7 @@
 					targets.table.push( object );
         //300
          var element300 = document.createElement('button');
-                    element300.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[300+1];}, false );
+                    element300.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[300+1];}, false );
 					element300.className = 'element';
 					element300.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element300.innerHTML = table[300+1];
@@ -1494,7 +1471,7 @@
 					targets.table.push( object );
         //305
          var element305 = document.createElement('button');
-                    element305.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[305+1];}, false );
+                    element305.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[305+1];}, false );
 					element305.className = 'element';
 					element305.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element305.innerHTML = table[305+1];
@@ -1514,7 +1491,7 @@
 					targets.table.push( object );
         //310
          var element310 = document.createElement('button');
-                    element310.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[310+1];}, false );
+                    element310.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[310+1];}, false );
 					element310.className = 'element';
 					element310.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element310.innerHTML = table[310+1];
@@ -1534,7 +1511,7 @@
 					targets.table.push( object );
         //315
          var element315 = document.createElement('button');
-                    element315.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[315+1];}, false );
+                    element315.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[315+1];}, false );
 					element315.className = 'element';
 					element315.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element315.innerHTML = table[315+1];
@@ -1554,7 +1531,7 @@
 					targets.table.push( object );
         //320
          var element320 = document.createElement('button');
-                    element320.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[320+1];}, false );
+                    element320.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[320+1];}, false );
 					element320.className = 'element';
 					element320.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element320.innerHTML = table[320+1];
@@ -1574,7 +1551,7 @@
 					targets.table.push( object );
         //325
          var element325 = document.createElement('button');
-                    element325.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[325+1];}, false );
+                    element325.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[325+1];}, false );
 					element325.className = 'element';
 					element325.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element325.innerHTML = table[325+1];
@@ -1594,7 +1571,7 @@
 					targets.table.push( object );
         //330
          var element330 = document.createElement('button');
-                    element330.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[330+1];}, false );
+                    element330.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[330+1];}, false );
 					element330.className = 'element';
 					element330.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element330.innerHTML = table[330+1];
@@ -1614,7 +1591,7 @@
 					targets.table.push( object );
         //335
          var element335 = document.createElement('button');
-                    element335.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[335+1];}, false );
+                    element335.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[335+1];}, false );
 					element335.className = 'element';
 					element335.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element335.innerHTML = table[335+1];
@@ -1634,7 +1611,7 @@
 					targets.table.push( object );
         //340
          var element340 = document.createElement('button');
-                    element340.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[340+1];}, false );
+                    element340.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[340+1];}, false );
 					element340.className = 'element';
 					element340.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element340.innerHTML = table[340+1];
@@ -1654,7 +1631,7 @@
 					targets.table.push( object );
         //345
          var element345 = document.createElement('button');
-                    element345.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[345+1];}, false );
+                    element345.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[345+1];}, false );
 					element345.className = 'element';
 					element345.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element345.innerHTML = table[345+1];
@@ -1674,7 +1651,7 @@
 					targets.table.push( object );
         //350
          var element350 = document.createElement('button');
-                    element350.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[350+1];}, false );
+                    element350.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[350+1];}, false );
 					element350.className = 'element';
 					element350.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element350.innerHTML = table[350+1];
@@ -1694,7 +1671,7 @@
 					targets.table.push( object );
         //355
          var element355 = document.createElement('button');
-                    element355.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[355+1];}, false );
+                    element355.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[355+1];}, false );
 					element355.className = 'element';
 					element355.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element355.innerHTML = table[355+1];
@@ -1714,7 +1691,7 @@
 					targets.table.push( object );
         //360
          var element360 = document.createElement('button');
-                    element360.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[360+1];}, false );
+                    element360.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[360+1];}, false );
 					element360.className = 'element';
 					element360.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element360.innerHTML = table[360+1];
@@ -1734,7 +1711,7 @@
 					targets.table.push( object );
         //365
          var element365 = document.createElement('button');
-                    element365.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[365+1];}, false );
+                    element365.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[365+1];}, false );
 					element365.className = 'element';
 					element365.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element365.innerHTML = table[365+1];
@@ -1754,7 +1731,7 @@
 					targets.table.push( object );
         //370
          var element370 = document.createElement('button');
-                    element370.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[370+1];}, false );
+                    element370.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[370+1];}, false );
 					element370.className = 'element';
 					element370.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element370.innerHTML = table[370+1];
@@ -1774,7 +1751,7 @@
 					targets.table.push( object );
         //375
          var element375 = document.createElement('button');
-                    element375.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[375+1];}, false );
+                    element375.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[375+1];}, false );
 					element375.className = 'element';
 					element375.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element375.innerHTML = table[375+1];
@@ -1794,7 +1771,7 @@
 					targets.table.push( object );
         //380
          var element380 = document.createElement('button');
-                    element380.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[380+1];}, false );
+                    element380.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[380+1];}, false );
 					element380.className = 'element';
 					element380.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element380.innerHTML = table[380+1];
@@ -1814,7 +1791,7 @@
 					targets.table.push( object );
         //385
          var element385 = document.createElement('button');
-                    element385.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[385+1];}, false );
+                    element385.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[385+1];}, false );
 					element385.className = 'element';
 					element385.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element385.innerHTML = table[385+1];
@@ -1834,7 +1811,7 @@
 					targets.table.push( object );
         //390
          var element390 = document.createElement('button');
-                    element390.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[390+1];}, false );
+                    element390.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[390+1];}, false );
 					element390.className = 'element';
 					element390.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element390.innerHTML = table[390+1];
@@ -1854,7 +1831,7 @@
 					targets.table.push( object );
         //395
          var element395 = document.createElement('button');
-                    element395.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[395+1];}, false );
+                    element395.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[395+1];}, false );
 					element395.className = 'element';
 					element395.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element395.innerHTML = table[395+1];
@@ -1874,7 +1851,7 @@
 					targets.table.push( object );
         //400
          var element400 = document.createElement('button');
-                    element400.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[400+1];}, false );
+                    element400.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[400+1];}, false );
 					element400.className = 'element';
 					element400.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element400.innerHTML = table[400+1];
@@ -1894,7 +1871,7 @@
 					targets.table.push( object );
         //405
          var element405 = document.createElement('button');
-                    element405.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[405+1];}, false );
+                    element405.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[405+1];}, false );
 					element405.className = 'element';
 					element405.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element405.innerHTML = table[405+1];
@@ -1914,7 +1891,7 @@
 					targets.table.push( object );
         //410
          var element410 = document.createElement('button');
-                    element410.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[410+1];}, false );
+                    element410.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[410+1];}, false );
 					element410.className = 'element';
 					element410.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element410.innerHTML = table[410+1];
@@ -1934,7 +1911,7 @@
 					targets.table.push( object );
         //415
          var element415 = document.createElement('button');
-                    element415.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[415+1];}, false );
+                    element415.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[415+1];}, false );
 					element415.className = 'element';
 					element415.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element415.innerHTML = table[415+1];
@@ -1954,7 +1931,7 @@
 					targets.table.push( object );
         //420
          var element420 = document.createElement('button');
-                    element420.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[420+1];}, false );
+                    element420.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[420+1];}, false );
 					element420.className = 'element';
 					element420.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element420.innerHTML = table[420+1];
@@ -1974,7 +1951,7 @@
 					targets.table.push( object );
         //425
          var element425 = document.createElement('button');
-                    element425.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[425+1];}, false );
+                    element425.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[425+1];}, false );
 					element425.className = 'element';
 					element425.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element425.innerHTML = table[425+1];
@@ -1994,7 +1971,7 @@
 					targets.table.push( object );
         //430
          var element430 = document.createElement('button');
-                    element430.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[430+1];}, false );
+                    element430.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[430+1];}, false );
 					element430.className = 'element';
 					element430.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element430.innerHTML = table[430+1];
@@ -2014,7 +1991,7 @@
 					targets.table.push( object );
         //435
          var element435 = document.createElement('button');
-                    element435.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[435+1];}, false );
+                    element435.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[435+1];}, false );
 					element435.className = 'element';
 					element435.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element435.innerHTML = table[435+1];
@@ -2034,7 +2011,7 @@
 					targets.table.push( object );
         //440
          var element440 = document.createElement('button');
-                    element440.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[440+1];}, false );
+                    element440.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[440+1];}, false );
 					element440.className = 'element';
 					element440.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element440.innerHTML = table[440+1];
@@ -2054,7 +2031,7 @@
 					targets.table.push( object );
         //445
          var element445 = document.createElement('button');
-                    element445.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[445+1];}, false );
+                    element445.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[445+1];}, false );
 					element445.className = 'element';
 					element445.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element445.innerHTML = table[445+1];
@@ -2074,7 +2051,7 @@
 					targets.table.push( object );
         //450
          var element450 = document.createElement('button');
-                    element450.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[450+1];}, false );
+                    element450.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[450+1];}, false );
 					element450.className = 'element';
 					element450.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element450.innerHTML = table[450+1];
@@ -2094,7 +2071,7 @@
 					targets.table.push( object );
         //455
          var element455 = document.createElement('button');
-                    element455.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[455+1];}, false );
+                    element455.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[455+1];}, false );
 					element455.className = 'element';
 					element455.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element455.innerHTML = table[455+1];
@@ -2114,7 +2091,7 @@
 					targets.table.push( object );
         //460
          var element460 = document.createElement('button');
-                    element460.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[460+1];}, false );
+                    element460.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[460+1];}, false );
 					element460.className = 'element';
 					element460.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element460.innerHTML = table[460+1];
@@ -2134,7 +2111,7 @@
 					targets.table.push( object );
         //465
          var element465 = document.createElement('button');
-                    element465.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[465+1];}, false );
+                    element465.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[465+1];}, false );
 					element465.className = 'element';
 					element465.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element465.innerHTML = table[465+1];
@@ -2154,7 +2131,7 @@
 					targets.table.push( object );
         //470
          var element470 = document.createElement('button');
-                    element470.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[470+1];}, false );
+                    element470.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[470+1];}, false );
 					element470.className = 'element';
 					element470.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element470.innerHTML = table[470+1];
@@ -2174,7 +2151,7 @@
 					targets.table.push( object );
         //475
          var element475 = document.createElement('button');
-                    element475.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[475+1];}, false );
+                    element475.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[475+1];}, false );
 					element475.className = 'element';
 					element475.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element475.innerHTML = table[475+1];
@@ -2194,7 +2171,7 @@
 					targets.table.push( object );
         //480
          var element480 = document.createElement('button');
-                    element480.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[480+1];}, false );
+                    element480.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[480+1];}, false );
 					element480.className = 'element';
 					element480.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element480.innerHTML = table[480+1];
@@ -2214,7 +2191,7 @@
 					targets.table.push( object );
         //485
          var element485 = document.createElement('button');
-                    element485.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[485+1];}, false );
+                    element485.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[485+1];}, false );
 					element485.className = 'element';
 					element485.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element485.innerHTML = table[485+1];
@@ -2234,7 +2211,7 @@
 					targets.table.push( object );
         //490
          var element490 = document.createElement('button');
-                    element490.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[490+1];}, false );
+                    element490.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[490+1];}, false );
 					element490.className = 'element';
 					element490.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element490.innerHTML = table[490+1];
@@ -2254,7 +2231,7 @@
 					targets.table.push( object );
         //495
          var element495 = document.createElement('button');
-                    element495.addEventListener( 'click', function ( event ){location.href='Home/Contact?name='+table[495+1];}, false );
+                    element495.addEventListener( 'click', function ( event ){location.href='Home/NameDescription?name='+table[495+1];}, false );
 					element495.className = 'element';
 					element495.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
                     element495.innerHTML = table[495+1];
